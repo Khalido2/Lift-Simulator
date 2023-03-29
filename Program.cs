@@ -8,7 +8,7 @@ public class World {
         static int _liftCapacity = 8;
         static int _numFloors = 10;
         static int _liftStartFloor = 0; //the floor that the lift starts on
-        static string _filePath = "Cloud Software Engineer Coding Exercise Data.csv";
+        static string _filePath = "Lift Input.csv";
         static string _outputFilePath = "Lift Output.csv";
         static string _outputHeadings = "Current Time, People in lift, Current lift state, Current lift floor, Current lift route, Lift call queue";
 
