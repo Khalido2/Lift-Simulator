@@ -18,3 +18,14 @@ floors are much more popular, for example.
 
 My written solution included, explanations, pseudocode and UML diagrams. This can be seen in "Lift Solution.pdf"
 [Lift Solution.pdf](https://github.com/Khalido2/Lift-Simulator/files/11102817/Lift.Solution.pdf)
+
+The code implementation follows the lift solution quite closely. It uses a game loop system as the intention is to have the final program display a graphic as the lift moves.
+
+Explanation of code implementation:
+[MedicineChest Lift Prototype Documentation.pdf](https://github.com/Khalido2/Lift-Simulator/files/11102874/MedicineChest.Lift.Prototype.Documentation.pdf)
+
+TO UNDERSTAND FORMAT OF LIFT INPUT TAKE A LOOK AT "Lift Input.csv". It describes which people get on which floors and when and to which destinations.
+
+#TO RUN
+-To run the prototype ensure .Net 7 is installed. Then, navigate to the directory of the project folder and run the command “dotnet run”. After running the application you will find the output CSV file in the project directory under the name “Lift Output.csv”. 
+-Currently the input CSV file has to be called "Lift Input.csv" a command input for this will be added later
